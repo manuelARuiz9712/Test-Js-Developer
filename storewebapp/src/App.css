@@ -1,0 +1,261 @@
+
+/*color primary rgba(255, 106, 0, 1) */
+.primary-background{
+  background: 'black' !important;
+  color: 'white' !important;
+}
+.color-green{
+  color: rgba(255, 106, 0, 1) ;
+}
+.logo-app{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.text-subtitle{
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.container-categories{
+  margin-top:5%;
+
+}
+.primary-color{
+  color: rgba(255, 106, 0, 1) ;
+}
+.background-primary{
+  background: rgba(255, 106, 0, 1) ; 
+  color: white;
+}
+.badge-car{
+  position: relative;
+  margin-top: -20px;
+}
+
+
+.content-carrousel-item{
+
+
+
+  padding-top: 4px;
+  padding-left: 2px;
+  padding-bottom: 4px;
+  border-left-style: solid;
+  border-left-color: rgba(255, 106, 0, 1);
+  border-left-width: 3px;
+  user-select:none;
+  
+}
+.content-carrousel-item label{
+  font-weight: 500;
+  margin-left: 10px;
+}
+.bar-desing{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.footer-item-article{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.card-item-prod{
+  padding-top :20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-card-produc{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+ 
+ 
+}
+
+.container-img-card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  align-content: center;
+}
+.title-prod-card-p{
+  text-overflow: ellipsis;
+ 
+  white-space: pre-wrap;
+}
+.label-price{
+  font-weight: 600;
+  color: orangered;
+  font-size: medium;
+}
+
+body{
+  background: rgb(233, 233, 233);
+}
+
+.img-btn-car{
+  width: 20px;
+  height: 20px;
+}
+.btn-add{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  background: rgba(255, 106, 0, 1);
+  color: white;
+  border: none;
+}
+
+.img-product-detail{
+  width: 70%;
+  
+}
+.content-view{
+  background: rgb(233, 233, 233);
+  margin-top: 5%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+.detail-product-title{
+  font-size: 42px;
+  font-weight: 300;
+  color: rgb(94, 94, 94);
+}
+.product-price{
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(94, 94, 94);
+}
+
+.detail-product-stock{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(94, 94, 94);
+}
+
+.indicators-text{
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: rgb(94, 94, 94);  
+}
+
+.categoria-seleccionada{
+  background: white;
+}
+
+.container-list-item{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.img-list-car-container{
+  width: 25%;
+
+}
+.img-list-car{
+  width: 80%;
+
+}
+
+.container-info-prueba{
+  width: 60%;
+
+}
+
+.container-delete-icon{
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.btn-delete{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 460px) {
+  .bar-desing{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+  }
+
+
+  
+.img-list-car-container{
+  width: 100%;
+
+}
+.img-list-car{
+  width: 80%;
+  align-self: center;
+
+}
+
+.container-info-prueba{
+  width: 100%;
+
+}
+
+.container-delete-icon{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+  
+
+}
